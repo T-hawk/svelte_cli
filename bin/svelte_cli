@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/svelte_cli.rb"
+
+SvelteCli.new(ARGV).call
