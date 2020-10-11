@@ -20,7 +20,8 @@ class SvelteCli < Rubiclifier::BaseApplication
     puts
     puts("Usage:")
     puts("  svelte_cli --help                      | Shows this help menu")
-    puts("  svelte_cli command --option <argument> | Executes command")
+    puts("  svelte_cli new <name>                  | Creates a new svelte project")
+    puts("  svelte_cli new component <name>        | Creates a new svelte component")
     puts
     exit
   end
